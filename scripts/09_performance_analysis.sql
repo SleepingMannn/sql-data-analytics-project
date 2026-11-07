@@ -16,7 +16,7 @@ Based on: SQL analytics course by Baraa Khatib Salkini (Data With Baraa).
 */
 
 -- Yearly sales of each product compared with the product's average sales and with the previous year's sales
-WITH yearly_product_sales AS (
+WITH CTE_yearly_product_sales AS (
     SELECT
         YEAR(f.order_date) AS order_year,
         p.product_name,
@@ -48,5 +48,5 @@ SELECT
         WHEN current_sales - LAG(current_sales) OVER (PARTITION BY product_name ORDER BY order_year) < 0 THEN 'Decrease'
         ELSE 'No Change'
     END AS py_change
-FROM yearly_product_sales
+FROM CTE_yearly_product_sales
 ORDER BY product_name, order_year;
