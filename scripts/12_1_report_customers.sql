@@ -106,11 +106,11 @@ SELECT
     -- Average order value (AOV)
     CASE 
         WHEN total_orders = 0 THEN 0
-        ELSE total_sales / total_orders
+        ELSE ROUND(CAST(total_sales AS FLOAT) / total_orders, 2) -- CAST avoids integer division
     END AS avg_order_value,
     -- Average monthly spend
     CASE 
         WHEN lifespan = 0 THEN total_sales
-        ELSE total_sales / lifespan
+        ELSE ROUND(CAST(total_sales AS FLOAT) / lifespan, 2) -- CAST avoids integer division
     END AS avg_monthly_spend
 FROM CTE_customer_aggregation;
