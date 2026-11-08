@@ -55,21 +55,21 @@ sql-data-analytics-project/
 ## Scripts
 
 | # | Script | What it does |
-|--------|---------|
-| 00	| 00_init_database.sql	| Creates the DataWarehouseAnalytics database and loads the CSV files | 
-| 01	| 01_database_exploration.sql	| Explores the structure of the database: tables, views and columns | 
-| 02	| 02_dimensions_exploration.sql	| Finds the unique values of the dimensions (countries, categories, products) | 
-| 03	| 03_date_range_exploration.sql	| Finds the earliest and latest dates to understand the time span of the data | 
-| 04	| 04_measures_exploration.sql	| Calculates the key business metrics ("big numbers") | 
-| 05	| 05_magnitude_analysis.sql	| Compares measures across categories and dimensions | 
-| 06	| 06_ranking_analysis.sql	| Ranks products and customers: Top N and Bottom N | 
-| 07	| 07_change_over_time_analysis.sql | Tracks how measures change over time: trends and seasonality | 
-| 08	| 08_cumulative_analysis.sql	| Calculates running totals and averages | 
-| 09	| 09_performance_analysis.sql	| Compares current values with the average and with the previous year | 
-| 10	| 10_part_to_whole_analysis.sql	| Shows the share of each category in the total | 
-| 11	| 11_data_segmentation.sql	| Groups customers and products into segments and aggregates by segment | 
-| 12	| 12_report_customers.sql	| Consolidate key customer metrics and behaviors in one view | 
-| 13	| 13_report_products.sql	| Consolidate key product metrics and behaviors in one view | 
+|---|--------|--------------|
+| 00 | `00_init_database.sql` | Creates the `DataWarehouseAnalytics` database and loads the CSV files. |
+| 01 | `01_database_exploration.sql` | Explores the structure of the database: tables, views and columns. |
+| 02 | `02_dimensions_exploration.sql` | Finds the unique values of the dimensions (countries, categories, products). |
+| 03 | `03_date_range_exploration.sql` | Finds the earliest and latest dates to understand the time span of the data. |
+| 04 | `04_measures_exploration.sql` | Calculates the key business metrics ("big numbers"). |
+| 05 | `05_magnitude_analysis.sql` | Compares measures across categories and dimensions. |
+| 06 | `06_ranking_analysis.sql` | Ranks products and customers: Top N and Bottom N. |
+| 07 | `07_change_over_time_analysis.sql` | Tracks how measures change over time: trends and seasonality. |
+| 08 | `08_cumulative_analysis.sql` | Calculates running totals and averages. |
+| 09 | `09_performance_analysis.sql` | Compares current values with the average and with the previous year. |
+| 10 | `10_part_to_whole_analysis.sql` | Shows the share of each category in the total. |
+| 11 | `11_data_segmentation.sql` | Groups customers and products into segments and aggregates by segment. |
+| 12 | `12_report_customers.sql` | Consolidates key customer metrics and behaviors in one view. |
+| 13 | `13_report_products.sql` | Consolidates key product metrics and behaviors in one view. |
 
 ## Project Series
 1. Data Warehouse project: ETL, data cleaning and data model.
