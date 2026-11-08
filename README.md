@@ -1,11 +1,11 @@
 # sql-data-analytics-project
 
-[![Built with Data With Baraa](https://img.shields.io/badge/Built_with-Data_With_Baraa-F5B301?style=for-the-badge)](https://github.com/DataWithBaraa/sql-data-warehouse-project)
+[![Built with Data With Baraa](https://img.shields.io/badge/Built_with-Data_With_Baraa-F5B301?style=for-the-badge)](https://github.com/DataWithBaraa/sql-data-analytics-project)
 
 > **📚 Learning project**
 >
 > This is a learning project built while following the free *SQL Data Warehouse*
-> course by **Baraa Khatib Salkini** ([Data With Baraa](https://github.com/DataWithBaraa/sql-data-warehouse-project)).
+> course by **Baraa Khatib Salkini** ([Data With Baraa](https://github.com/DataWithBaraa/sql-data-analytics-project)).
 >
 > - Original repository: https://github.com/DataWithBaraa/sql-data-analytics-project
 > - Video tutorial: https://youtu.be/SSKVgrwhzus?si=jnNL6c97yBya66NP
