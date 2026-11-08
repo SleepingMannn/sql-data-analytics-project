@@ -4,7 +4,7 @@
 
 > **📚 Learning project**
 >
-> This is a learning project built while following the free *SQL Data Warehouse*
+> This is a learning project built while following the free *SQL Full Course*
 > course by **Baraa Khatib Salkini** ([Data With Baraa](https://github.com/DataWithBaraa/sql-data-analytics-project)).
 >
 > - Original repository: https://github.com/DataWithBaraa/sql-data-analytics-project
@@ -15,23 +15,65 @@
 
 ## Overview
 
-Exploratory data analysis and advanced analytics in SQL — from first look at data to reports for clients and products. The data and every query.
+SQL analysis of a sales database (customers, products, sales) in two parts, from a first look at the data to two final reports:
+
+![Data Analytics](docs/data_analytics.png)
+
+*Diagram redrawn by me in Figma, based on the course.*
+
+- Exploratory Data Analysis (scripts 01–06): database structure, dimensions, date range, key metrics, magnitude and ranking.
+- Advanced Analytics (scripts 07–13): change over time, cumulative totals, performance, part-to-whole, segmentation and two reports (customers and products).
+
+## Data
+
+The analysis runs on three tables of a sales data warehouse (Gold layer): `gold.dim_customers`, `gold.dim_products` and `gold.fact_sales`. 
+The data is a demo dataset provided by the course author, not real customer data.
+
+## Tech Stack
+
+- SQL Server
+- SQL Server Management Studio (SSMS)
+- Git / GitHub
+- Figma (diagrams)
 
 ## Repository Structure
 
 ```
-sql-data-warehouse-project/
-├── datasets/                              # the data, as a backup and as CSV files
-│   ├── csv-files/                         # initial data, to build the database by yourself
-│   └── DataWarehouseAnalytics.bak/        # the database, ready to restore
-├── docs/                                  # the project diagrams
-├── scripts/                               # the project scripts
-│   ├── init_database.sql                  # creates the database from the CSV files
+sql-data-analytics-project/
+├── datasets/
+│   └── csv-files/          # the three Gold tables as CSV files
+├── docs/                   # project diagram
+├── scripts/                # the SQL scripts
+│   ├── 00_init_database.sql
+│   ├── 01_database_exploration.sql
+│   │   ...
+│   └── 13_report_products.sql
 ├── LICENSE
 └── README.md
 ```
 
-## What I Learned
+## Scripts
+
+| # | Script | What it does |
+|--------|---------|
+| 00	| 00_init_database.sql	| Creates the DataWarehouseAnalytics database and loads the CSV files | 
+| 01	| 01_database_exploration.sql	| Explores the structure of the database: tables, views and columns | 
+| 02	| 02_dimensions_exploration.sql	| Finds the unique values of the dimensions (countries, categories, products) | 
+| 03	| 03_date_range_exploration.sql	| Finds the earliest and latest dates to understand the time span of the data | 
+| 04	| 04_measures_exploration.sql	| Calculates the key business metrics ("big numbers") | 
+| 05	| 05_magnitude_analysis.sql	| Compares measures across categories and dimensions | 
+| 06	| 06_ranking_analysis.sql	| Ranks products and customers: Top N and Bottom N | 
+| 07	| 07_change_over_time_analysis.sql | Tracks how measures change over time: trends and seasonality | 
+| 08	| 08_cumulative_analysis.sql	| Calculates running totals and averages | 
+| 09	| 09_performance_analysis.sql	| Compares current values with the average and with the previous year | 
+| 10	| 10_part_to_whole_analysis.sql	| Shows the share of each category in the total | 
+| 11	| 11_data_segmentation.sql	| Groups customers and products into segments and aggregates by segment | 
+| 12	| 12_report_customers.sql	| Consolidate key customer metrics and behaviors in one view | 
+| 13	| 13_report_products.sql	| Consolidate key product metrics and behaviors in one view | 
+
+## Project Series
+1. Data Warehouse project: ETL, data cleaning and data model.
+2. This project: exploratory data analysis and reports in SQL.
 
 ## License
 
