@@ -10,7 +10,7 @@ System Views Used:
     - INFORMATION_SCHEMA.TABLES
     - INFORMATION_SCHEMA.COLUMNS
 
-Based on: SQL analytics course by Baraa Khatib Salkini (Data With Baraa).
+Based on: SQL Full Course by Baraa Khatib Salkini (Data With Baraa).
 ===============================================================================
 */
 
