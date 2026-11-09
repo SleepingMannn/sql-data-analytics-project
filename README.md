@@ -15,10 +15,10 @@
 
 ## Overview
 
-SQL analysis of a sales database (customers, products, sales) in two parts, from a first look at the data to two final reports:
+SQL analysis of a sales database (customers, products, sales) in two parts, from a first look at the data to two final reports.
+Questions answered: customer behavior, product performance and sales trends
 
 ![Data Analytics](docs/data_analytics.png)
-
 *Diagram redrawn by me in Figma, based on the course.*
 
 - Exploratory Data Analysis (scripts 01–06): database structure, dimensions, date range, key metrics, magnitude and ranking.
@@ -43,11 +43,13 @@ sql-data-analytics-project/
 ├── datasets/
 │   └── csv-files/          # the three Gold tables as CSV files
 ├── docs/                   # project diagram
-└── scripts/                # the SQL scripts
-    ├── 00_init_database.sql
-    ├── 01_database_exploration.sql
-    │   ...
-    └── 13_report_products.sql
+├── scripts/                # the SQL scripts
+│   ├── 00_init_database.sql
+│   ├── 01_database_exploration.sql
+│   │   ...
+│   └── 13_report_products.sql
+├── LICENSE
+└── README.md
 ```
 
 ## How to Run
@@ -78,7 +80,8 @@ sql-data-analytics-project/
 | 13 | `13_report_products.sql` | Consolidates key product metrics and behaviors in one view. |
 
 ## Project Series
-1. [Data Warehouse project](https://github.com/SleepingMannn/sql-data-warehouse-project/tree/main): ETL, data cleaning and data model.
+
+1. [Data Warehouse project](https://github.com/SleepingMannn/sql-data-warehouse-project): ETL, data cleaning and data model.
 2. This project: exploratory data analysis and reports in SQL.
 
 ## License
