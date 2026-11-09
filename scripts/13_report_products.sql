@@ -19,7 +19,7 @@ Highlights:
        - average order revenue (AOR)
        - average monthly revenue
 
-Based on: SQL analytics course by Baraa Khatib Salkini (Data With Baraa).
+Based on: SQL Full Course by Baraa Khatib Salkini (Data With Baraa).
 ===============================================================================
 */
 
