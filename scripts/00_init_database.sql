@@ -15,7 +15,7 @@ Note:
     The BULK INSERT paths point to 'C:\sql\sql-data-analytics-project\datasets\csv-files\'.
     Change them to the folder where you saved the CSV files.
 
-Based on: SQL analytics course by Baraa Khatib Salkini (Data With Baraa).
+Based on: SQL Full Course by Baraa Khatib Salkini (Data With Baraa).
 ===============================================================================
 */
 
