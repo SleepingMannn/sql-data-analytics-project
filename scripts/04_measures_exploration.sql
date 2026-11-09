@@ -9,7 +9,7 @@ Purpose:
 SQL Functions Used:
     - COUNT(), SUM(), AVG()
 
-Based on: SQL analytics course by Baraa Khatib Salkini (Data With Baraa).
+Based on: SQL Full Course by Baraa Khatib Salkini (Data With Baraa).
 ===============================================================================
 */
 
