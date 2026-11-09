@@ -1,4 +1,4 @@
-# sql-data-analytics-project
+# Exploratory Data Analysis (SQL Server)
 
 [![Built with Data With Baraa](https://img.shields.io/badge/Built_with-Data_With_Baraa-F5B301?style=for-the-badge)](https://github.com/DataWithBaraa/sql-data-analytics-project)
 
