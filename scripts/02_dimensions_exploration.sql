@@ -10,7 +10,7 @@ SQL Functions Used:
     - DISTINCT
     - ORDER BY
 
-Based on: SQL analytics course by Baraa Khatib Salkini (Data With Baraa).
+Based on: SQL Full Course by Baraa Khatib Salkini (Data With Baraa).
 ===============================================================================
 */
 
