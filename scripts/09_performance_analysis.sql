@@ -11,7 +11,7 @@ SQL Functions Used:
     - AVG() OVER(): average within a partition.
     - CASE: conditional logic for the trend labels.
 
-Based on: SQL analytics course by Baraa Khatib Salkini (Data With Baraa).
+Based on: SQL Full Course by Baraa Khatib Salkini (Data With Baraa).
 ===============================================================================
 */
 
