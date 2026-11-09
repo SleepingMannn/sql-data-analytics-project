@@ -10,7 +10,7 @@ SQL Functions Used:
     - Aggregate Functions: SUM(), COUNT(), AVG()
     - GROUP BY, ORDER BY
 
-Based on: SQL analytics course by Baraa Khatib Salkini (Data With Baraa).
+Based on: SQL Full Course by Baraa Khatib Salkini (Data With Baraa).
 ===============================================================================
 */
 
