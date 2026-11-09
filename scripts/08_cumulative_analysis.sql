@@ -12,7 +12,7 @@ SQL Functions Used:
 Note:
     - DATETRUNC() requires SQL Server 2022 or later.
 
-Based on: SQL analytics course by Baraa Khatib Salkini (Data With Baraa).
+Based on: SQL Full Course by Baraa Khatib Salkini (Data With Baraa).
 ===============================================================================
 */
 
