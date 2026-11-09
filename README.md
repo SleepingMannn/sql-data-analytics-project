@@ -43,13 +43,11 @@ sql-data-analytics-project/
 ├── datasets/
 │   └── csv-files/          # the three Gold tables as CSV files
 ├── docs/                   # project diagram
-├── scripts/                # the SQL scripts
-│   ├── 00_init_database.sql
-│   ├── 01_database_exploration.sql
-│   │   ...
-│   └── 13_report_products.sql
-├── LICENSE
-└── README.md
+└── scripts/                # the SQL scripts
+    ├── 00_init_database.sql
+    ├── 01_database_exploration.sql
+    │   ...
+    └── 13_report_products.sql
 ```
 
 ## How to Run
