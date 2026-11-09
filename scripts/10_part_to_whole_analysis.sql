@@ -10,7 +10,7 @@ SQL Functions Used:
     - SUM() OVER(): total across all rows.
     - CAST(), ROUND(): percentage calculation.
 
-Based on: SQL analytics course by Baraa Khatib Salkini (Data With Baraa).
+Based on: SQL Full Course by Baraa Khatib Salkini (Data With Baraa).
 ===============================================================================
 */
 
