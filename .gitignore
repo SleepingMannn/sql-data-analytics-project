@@ -1,0 +1,18 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore SQL Server-related files
+*.mdf
+*.ldf
+*.ndf
+
+# Ignore temporary or backup files
+*.log
+*.bak
+*.tmp
+
+# Secrets and editor settings
+*.env
+.vscode/
+.idea/
