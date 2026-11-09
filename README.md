@@ -4,8 +4,8 @@
 
 > **📚 Learning project**
 >
-> This is a learning project built while following the free *SQL Full Course*
-> course by **Baraa Khatib Salkini** ([Data With Baraa](https://github.com/DataWithBaraa/sql-data-analytics-project)).
+> This is a learning project built while following the Exploratory Data Analysis and Advanced Data Analytics projects
+> from the free 30-hour *SQL Full Course* by **Baraa Khatib Salkini** ([Data With Baraa](https://github.com/DataWithBaraa/sql-data-warehouse-project)).
 >
 > - Original repository: https://github.com/DataWithBaraa/sql-data-analytics-project
 > - Video tutorial: https://youtu.be/SSKVgrwhzus?si=jnNL6c97yBya66NP
@@ -31,7 +31,7 @@ The data is a demo dataset provided by the course author, not real customer data
 
 ## Tech Stack
 
-- SQL Server
+- SQL Server 2022 or newer
 - SQL Server Management Studio (SSMS)
 - Git / GitHub
 - Figma (diagrams)
@@ -51,6 +51,14 @@ sql-data-analytics-project/
 ├── LICENSE
 └── README.md
 ```
+
+## How to Run
+
+1. Install SQL Server (2022 or newer, required for `DATETRUNC()`) and SSMS.
+2. Save the repository on your computer, for example in `C:\sql\sql-data-analytics-project\`.
+   If you use another folder, update the three file paths in `scripts/00_init_database.sql`.
+3. Run `scripts/00_init_database.sql` (**warning:** it drops and recreates the `DataWarehouseAnalytics` database).
+4. Run scripts `01` to `13` in order. Scripts 12 and 13 drop and recreate their views.
 
 ## Scripts
 
@@ -72,7 +80,7 @@ sql-data-analytics-project/
 | 13 | `13_report_products.sql` | Consolidates key product metrics and behaviors in one view. |
 
 ## Project Series
-1. Data Warehouse project: ETL, data cleaning and data model.
+1. [Data Warehouse project](https://github.com/SleepingMannn/sql-data-warehouse-project/tree/main): ETL, data cleaning and data model.
 2. This project: exploratory data analysis and reports in SQL.
 
 ## License
