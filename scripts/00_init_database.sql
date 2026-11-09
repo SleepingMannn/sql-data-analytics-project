@@ -1,7 +1,7 @@
 /*
-=============================================================
+===============================================================================
 Create Database and Schemas
-=============================================================
+===============================================================================
 Script Purpose:
     This script creates a new database named 'DataWarehouseAnalytics' after checking if it already exists.
     If the database exists, it will be dropped and recreated. Additionally, this script creates a schema called gold.
@@ -14,6 +14,9 @@ WARNING:
 Note:
     The BULK INSERT paths point to 'C:\sql\sql-data-analytics-project\datasets\csv-files\'.
     Change them to the folder where you saved the CSV files.
+
+Based on: SQL analytics course by Baraa Khatib Salkini (Data With Baraa).
+===============================================================================
 */
 
 USE master;
